@@ -1,5 +1,4 @@
-/* Parameters:
-bucket(ary, fn)
+/* bucket(ary, fn)
 ary - an array
 fn - a function that returns true or false
 fn has one argument, a value to test
