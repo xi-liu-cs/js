@@ -5,7 +5,7 @@ arg - the argument to pass to function, fn, when it is called */
 
 function call_fn(fn, n, arg)
 {
-  if(!n) return;
+	if(!n) return;
 	fn(arg);
 	--n;
 	call_fn(fn, n, arg);
