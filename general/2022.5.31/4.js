@@ -11,7 +11,7 @@ function bucket(ary, fn)
 {
 	return ary.reduce
 	(
-		function(ret, cur)
+		(ret, cur) =>
 		{
 			fn(cur) ? ret[0].push(cur) : ret[1].push(cur);
 			return ret;
