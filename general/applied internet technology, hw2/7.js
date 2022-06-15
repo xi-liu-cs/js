@@ -29,3 +29,4 @@ const failure = (err) => console.log('Error opening file:', err);
  fox */
 
 f('tests/words.txt', success, failure); 
+/* output is: ['ant', 'bat', 'cat', 'dog',  'emu', 'fox'] */
