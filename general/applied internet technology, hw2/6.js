@@ -1,4 +1,4 @@
-import {readFile} from 'node:fs';
+let fs = require('fs');
 
 function my_read_file(file_name, success_fn, error_fn)
 {
@@ -20,4 +20,5 @@ function error_fn()
     console.log("error_fn");
 }
 
-my_read_file('a.txt', success_fn, error_fn);
+my_read_file('0.txt', success_fn, error_fn);
+my_read_file('1.txt', success_fn, error_fn);
