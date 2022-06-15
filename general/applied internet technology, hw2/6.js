@@ -1,5 +1,5 @@
-import fs from 'fs'; /* es module scope, in package.json, {"type": "module"} */
-/* let fs = require('fs'); "type" not set */
+import fs from 'fs'; /* es module scope, in package.json, {"type": "module"} 
+let fs = require('fs'); "type" not set */
 
 function my_read_file(file_name, success_fn, error_fn)
 {
