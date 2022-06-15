@@ -20,7 +20,5 @@ es(ecma script) (ecma, european computer manufacturers association)
           "printf": "^0.6.1"
         }
       }
-
       
-
 why "let fs = require('fs');" do not work in browser console but works locally using "node 6.js"?
