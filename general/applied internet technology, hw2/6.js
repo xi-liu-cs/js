@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs';
+import {readFile} from 'node:fs';
 
 function my_read_file(file_name, success_fn, error_fn)
 {
